@@ -17,5 +17,16 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "vite": "^4.0.4"
+  },
+  "devDependencies": {
+    "standard": "17.0.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "./node_modules/standard/eslintrc.json"
+    ],
+    "rules": {
+      "space-before-function-paren": 0
+    }
   }
 }
